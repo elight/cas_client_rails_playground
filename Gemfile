@@ -6,10 +6,9 @@ gem 'rack', '1.1.0'
 gem 'rails', '2.3.8'
 gem 'sinatra', '1.0', :require => false
 gem 'pg'
-gem 'devise'
+gem 'devise', '1.0.8'
 gem 'devise_cas_authenticatable'
 
-gem 'ngmoco-cache-money', '0.2.10'
 gem 'daemons'
 gem 'delayed_job', '1.8.5'
 gem 'fastercsv'
@@ -30,8 +29,6 @@ gem "mini_magick"
 gem "haml"
 gem "compass"
 gem "tinder"
-
-gem "rubycas-server"
 
 group :deploy do
   gem 'capistrano-ext', '1.2.1'
